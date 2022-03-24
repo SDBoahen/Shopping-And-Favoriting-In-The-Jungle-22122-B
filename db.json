@@ -1,0 +1,33 @@
+{
+
+    "items": [
+
+        {
+            "id": 1,
+            "name": "iPhone",
+            "image_URL": "https://brouwhoeve.es/wp-content/uploads/2022/02/istockphoto-1128262881-612x612-1.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Android Phone",
+            "image_URL": "https://brouwhoeve.es/wp-content/uploads/2022/02/istockphoto-1128262881-612x612-1.jpg"
+        },
+        {
+            "id": 300,
+            "name": "Google Phone",
+            "image_URL": "https://brouwhoeve.es/wp-content/uploads/2022/02/istockphoto-1128262881-612x612-1.jpg"
+        },
+        {
+            "id": 4000,
+            "name": "Windows Phone",
+            "image_URL": "https://brouwhoeve.es/wp-content/uploads/2022/02/istockphoto-1128262881-612x612-1.jpg"
+        },
+        {
+            "id": 50000,
+            "name": "Paint",
+            "image_URL": "https://brouwhoeve.es/wp-content/uploads/2022/02/istockphoto-1128262881-612x612-1.jpg"
+        }
+
+    ]
+
+}

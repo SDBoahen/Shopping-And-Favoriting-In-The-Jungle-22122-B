@@ -1,3 +1,115 @@
+This Weekend’s Assignment :clipboard::nerd_face:👍
+
+
+
+
+DELIVERABLES :
+
+✅
+▶️ Do a create-react-app
+
+
+▶️ I need y’all to create a Shopping🛒✨  or  Favoriting😍✨ App
+
+
+✅
+▶️ Render a List of
+< ItemsList />  OR  <ThingsThatCanBeFavorited />
+
+
+@@@
+▶️ When the user CLICKS on an
+< Item />  OR  < ThingToFavorite />,
+that clicked Component should go into (be rendered in)
+< ShoppingCart />  OR  <Favorites />
+THEN
+upon CLICKing on an < Item />  OR  < ThingToFavorite />, that is ALREADY in/ rendered-in your < ShoppingCart />  OR  <Favorites />, it should be REMOVED/Deleted from theDOM
+(If this is presenting itself to be difficult skip passed it and return to it later :ok_hand::skin-tone-5::meditating::dizzy:)
+
+
+▶️ Add a Like AND Dislike Button AND a <p/> or <h4 /> to EACH
+< Item />  OR  < ThingToFavorite />
+▶️▶️ Feel Free to use any text-based tag for the actual like/dislike count
+Both Buttons should be impacting the same variable, likes/count
+The Like Button increments the likes/count value
+The DisLike Button increments the likes/count value
+
+
+▶️ Create an h1 at the Top of your Application that Toggles between the following two Texts upon being CLICKED:
+“Now I’m Shopping”  AND  “Now I’m Favoriting”
+
+
+▶️ Add a Form which upon being SUBMITTED, will add a new string/object/piece-of-data to your
+array of items OR thingsToFavorite
+This Form should have AT LEAST two input fields (minimum)
+one text based (translates to a name:  key)
+one image based (translates to an image_URL:  key)
+
+
+▶️ Add a SearchBar that changes/reRenders the Components matching the text typed/in-put into the SearchBar
+You can search though your items OR thingsToFavorite by the string/text based attribute (from the Form’s first input field)
+This will cause the items shown to be VISIBLY filtered through
+When the Search Bar is empty/has no text, we should have all items OR thingsToFavorite  rendered
+
+
+
+
+
+
+
+
+SUGGESTIONS + LOGISTICS + REMINDERS:
+
+
+
+
+▶️ Feel free to either have an array of items or thingsToFavorite objects either
+
+➡️ Directly inside of  < App />
+
+OR
+
+➡️ As an array in a separate Js file, imported into  < App />
+
+OR
+
+➡️ As a db.json file and fetch() from it into  < App />
+
+
+
+
+▶️ Somewhere in your Project, you WILL NEED 5 Components minimum to satisfy this
+
+➡️  <App />
+
+➡️  < ItemsList />  OR  < ThingsThatCanBeFavorited />
+
+➡️  < ShoppingCart />  OR  <Favorites />
+
+➡️  <Item />  OR  < ThingToFavorite />
+
+➡️ < NewItemForm /> OR < NewThingForm />
+
+
+▶️▶️ Feel Free to Rename Your Components Differently Than I Wrote in the DELIVERABLES in any ways that make the most sense to ✨YOU✨  //  😅👍
+
+
+
+
+▶️ You WILL NEED to use State (useState())
+▶️ You WILL NEED to use props
+▶️ You WILL NEED to use events (onClick + onSubmit  in particular at a minimum)
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
